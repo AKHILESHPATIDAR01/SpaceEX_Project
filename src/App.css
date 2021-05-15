@@ -90,7 +90,7 @@ body{
 .box-inner{
   margin: 10px 15px;
   width: 222px;
-  height: 480px;
+  height: 500px;
   /* border: 1px solid black; */
   background-color: #fff;
 }
@@ -117,7 +117,7 @@ body{
 .box-inner-details-heading{
   font-weight: 700;
   color: #416082;
-  line-height: 10px;
+  /* line-height: 10px; */
 }
 
 .box-inner-details-detail p{
