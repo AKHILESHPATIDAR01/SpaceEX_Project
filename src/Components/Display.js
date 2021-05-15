@@ -27,8 +27,8 @@ function Display(props) {
                                 </div>
                                 <div className='box-inner-details-detail'>
                                     <p>Mission Ids: <span>{item.static_fire_date_unix}</span> </p>
-                                    <p>Launch Year:<span>{item.static_fire_date_utc}</span></p>
-                                    <p>Successful Launch:<span style={{ marginLeft:"5px"}}>{item.success == false ? "False" : item.success == true ? "True" : "N/A"}</span></p>
+                                    <p>Launch Year:<span style={{ marginLeft:"5px"}}>{parseInt(item.date_local)}</span></p>
+                                    <p>Successful Launch:<span style={{ marginLeft:"5px"}}>{item.success === false ? "False" : item.success === true ? "True" : "N/A"}</span></p>
                                     <p>Successful Landing:<span></span></p>
                                 </div>
                             </div>
